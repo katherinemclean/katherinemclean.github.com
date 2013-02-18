@@ -17,7 +17,7 @@ figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
-	padding: 0;
+	padding: 20px;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
@@ -48,9 +48,19 @@ table {
 }
 
 /* Add Styles Here */
-body { font-family:Times; font-size:14px; }
-section#content { margin:0 auto; width:960px; padding:20px 0px; }
-
-h1 { font-size:48px; font-weight:bold; color:black; text-align:center; }
-h2 { font-size:36px; font-weight:bold; color:black; text-align:center; }
-p { padding-bottom:10px; }
+h1 { font-size:48px; 
+	font-weight:bold; 
+	text-align:center; 
+	font-weight: bolder;
+	color: green; }
+h2 { font-size:20px; 
+	font-style: italic; 
+	text-align:center;
+	padding: 1px }
+p { text-align:center;
+	font-size: 12px;
+	padding: 250px}
+body {font-family: helvetica;}
+p, ul, ol {line-height: 1.25}
+a:link, a:visited, a:hover {text-decoration: none;
+	color: gray}
