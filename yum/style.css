@@ -53,23 +53,33 @@ table {
 
 /* END RESET */
 
-	h1 {font-weight: bolder;
-		font-size: 200%;
-		color: green;
-		line-height: 2.75}
+	h1 {font-family: Helvetica, serif;
+		font-size: 300%;
+		color: #cde4c6;
+		line-height: 2.75;
+		font-weight: bolder;
+		padding-bottom: 5px;
+		padding-left:20px ;
+		background-color:#16837d;}
 	h2 {font-size: 150%;
-		font-style: italic}
+		font-style: italic;
+		color: teal;}
 	body {font-family: helvetica;
 		  padding-left:3cm;
-		  padding-bottom:4cm}
+		  padding-bottom:4cm;
+		  margin: 0 auto;}
 	p, ul, ol {line-height: 1.25}
 	h2 {line-height: 1.75}
 	a:link, a:visited, a:hover {text-decoration: none;
 			color: gray}
-	p {line-height: 4}
-	ul {list-style-type: circle;}
-	ol {list-style-type: upper-roman;}
+	p {line-height: 4;
+		padding: 20px;
+		float: left}
+	img {padding: 20px;
+		width: 400px;
+		float: left;}
 
+/* 16837d teal 60f233 limegreen */
 
 
 /* http://marthar.github.com/webspring-2013/4.html#slide-54 use for help */
