@@ -74,3 +74,71 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+/* End Reset */
+
+body {width:820px;
+	font-family: Georgia;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#logo {padding: 30px;
+	}
+
+li {float:left;
+    text-transform:uppercase;
+	font-size:24px;
+	font-weight:bold;
+	padding-top:10px;
+	margin-bottom: 20px;
+	border-top: 3pt solid black;
+	border-bottom: 3pt solid black;
+	width: 150px;
+	height: 30px;
+	}
+
+#dog {float: left;
+	  width: 400px;
+	  height: 300px;
+	  padding-bottom: 20px;
+	  }
+#cat {float: left;
+	  width: 400px;
+	  height: 300px;
+	  padding-bottom: 20px;
+	}
+#dogs {float: left;
+       width: 400px;
+       height: 465px;
+       text-align:left;
+       padding-bottom:20px
+       }
+      
+#cats {float:right;
+       width: 400px;
+       height: 465px;
+       text-align:left;
+       padding-bottom:20px;
+       }    
+h2 {font-weight: bold;
+	font-size: 18px;
+	padding: 10px 0px;} 
+p {font-size: 14px;
+	line-height: 1.5}
+#footnote1 {font-size: 10px;
+	float: left;
+	width: 410px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: left;
+	border-top: 3px solid black}
+#footnote2 {font-size: 10px;
+	float: left;
+	width: 410px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-align: right;
+	border-top: 3px solid black}
+
+
