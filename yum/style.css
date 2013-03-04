@@ -59,25 +59,39 @@ table {
 		line-height: 2.75;
 		font-weight: bolder;
 		padding-bottom: 5px;
-		padding-left:20px ;
+		padding-left:30px ;
+		margin-left: 20px;
 		background-color:#16837d;}
 	h2 {font-size: 150%;
 		font-style: italic;
-		color: teal;}
+		color: teal;
+		margin-top: 10px}
 	body {font-family: helvetica;
 		  padding-left:3cm;
 		  padding-bottom:4cm;
-		  margin: 0 auto;}
-	p, ul, ol {line-height: 1.25}
+		  margin: 0 auto;
+		  width: 1000px}
+	li {padding-top: 5px}
 	h2 {line-height: 1.75}
-	a:link, a:visited, a:hover {text-decoration: none;
+	a {text-decoration: none;
 			color: gray}
-	p {line-height: 4;
-		padding: 20px;
-		float: left}
 	img {padding: 20px;
 		width: 400px;
 		float: left;}
+	#directions {width: 60%;
+		padding-bottom: 10px;
+		float: left;
+		width: 450px;}
+	#directions li {padding-top: 5px;
+		line-height: 1.25;}
+	#new-page {padding-top: 20px;
+		float: right;
+		width: 560px;
+		color: #16837d;}
+	#yield {float: right;
+		width: 560px;
+		padding-top: 5px;
+		font-style: italic;}
 
 /* 16837d teal 60f233 limegreen */
 
