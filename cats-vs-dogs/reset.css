@@ -88,15 +88,18 @@ body {width:820px;
 
 li {float:left;
     text-transform:uppercase;
+    text-align: left;
 	font-size:24px;
 	font-weight:bold;
-	padding-top:10px;
-	margin-bottom: 20px;
+	padding-left:20px;
+	padding-top: 10px;
 	border-top: 3pt solid black;
 	border-bottom: 3pt solid black;
-	width: 150px;
+	width: 144px;
 	height: 30px;
+	list-style-type: disc;
 	}
+#first {list-style-type: none;}
 
 #dog {float: left;
 	  width: 400px;
