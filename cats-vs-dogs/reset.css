@@ -84,7 +84,7 @@ body {width:960px;
 	}
 header {position: relative;
 	}
-h1 {display:block;  
+#header h1 {display:block;  
  	width:445px; 
  	height:95px;  
  	background:url(images/dogvscat-logo.gif) no-repeat top center; 
@@ -125,7 +125,7 @@ li {float:left;
        width: 400px;
        height: 465px;
        text-align:left;
-       padding-bottom:20px
+       padding-bottom:20px;
        }
       
 #cats {float:right;
