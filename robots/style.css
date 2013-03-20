@@ -52,86 +52,81 @@ table {
 
 /*END RESET*/
 
-body {width: 960px;
-	margin: 0 auto;
+body {margin: 0 auto;
 	font-family: helvetica;
-	text-decoration: none}
+	text-decoration: none;}
 
-#site-header {position:relative;
-	height: 130px;
-	background-color: #ecf2d3}
-#site-header h1 {position: absolute;
+header {position:relative;
+	height: 125px;
+	width: 960px;
+	margin: 0 auto;
+	background-color: green}
+
+#site-wrapper {
+	background-color: pink;
+	height: 125px}
+header h1 {position: absolute;
 	display: block;
 	width: 360px;
-	height:150px;
-	left:15px;}
+	height:100px;
+	background-color: yellow;}
 
 #logo-text{background: red;
 	position: absolute;
 	left: -9999px}
 #top-nav {position: absolute;
-	right: 15px;
+	right: 0px;
 	top:5px;
 	text-decoration: none;
 	width: 150px;
+	background-color: teal;
 	}
-#top-nav a {color:#875c33;
-			font-family:helvetica;
-			font-size:12px;}
 a {text-decoration: none;}
 #main-menu {position: relative;
 	height: 30px;
-	background-color:#875c33;
-	padding: 10px}
+	background-color:purple;
+	padding: 10px;
+	margin:0 auto;
+	width: 960px;}
 #main-menu li {float:left;
 	padding:0px 10px;
-	margin:10px 0px 5px 15px;
+	margin:0px 0px 5px 15px;
 	text-transform:uppercase; 
 	font-weight:bold;
 	font-size: 14px;
-	margin: 10px}
+	margin: 10px;}
 #main-menu a {color: white}
+#menu-wrapper {background-color: brown;}
 
-#page h1 {	font-size: 24pt;
-	color:#744918;
-	text-transform:uppercase; 
-	font-weight:bold;
-	margin-top:30px;
-	margin-bottom: 10px}
-#page p {position: relative;
-	width: 440px;
-	float: left;
-	font-size:12px;
-	padding: 0px 10px}
-#page h2 {font-size: 16px;
-	color:#744918;
-	text-transform:uppercase; 
-	font-weight:bold;}
-#page {	float:left; 
-	width:50%;
-	background-color:white;
-	margin:20px 15px;
-	padding:10px;}
-#sidebar {float:right;
+#page {float: left;
+	width: 60%;
+	background-color:chartreuse;
+	margin-top: 40px;}
+#content {width: 960px;
+	margin: 0 auto;}
+#sidebar {float:left;
 	width:30%;
-	margin-top:20px;
+	margin-top:40px;
 	padding:10px;
+	margin-left:75px ;
 	position: relative;
+	background-color: aqua;
 	}
-#sidebar h1 {
-			 color:#875c33;
-			 font-size:16px;
-			 text-transform:uppercase;
-			 font-family:helvetica;
-			 font-weight:bold;
-			 padding-top:12px;
-			 padding-bottom:5px;}
-#sidebar ul {margin-bottom: 10px}
-#sidebar li {color:#875c33;
-			 font-size:12px;
-			line-height: 1.5em}
-#site-footer {clear: both;
+#site-footer {background-color: orange;
+	clear:both;
 	position: relative;
-	float:left;
-	width: 15%;
-	height:175px;}
+	bottom: 0;
+	width: 960px;
+	margin: 0 auto;}
+
+#footer-contact {width: 15%;
+	float: left;}
+#footer-follow {float: right;
+	height:100px;
+	margin-right: 100px;
+	}
+#footer-follow li {float:left; 
+	background-color: teal}
+#footer-wrapper {background-color: orange;
+	clear: both;
+	height: 200px;}
