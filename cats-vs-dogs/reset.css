@@ -90,21 +90,19 @@ header {position: relative;
  	background:url(images/dogvscat-logo.gif) no-repeat top center; 
  	text-indent:-9999px;
 	margin: 25px;
-	margin-bottom:30px;}
+	margin-bottom:20px;}
 nav {width: 960px;
 	position: absolute;
 	margin: 0 auto;
-	background-color: red;}
+	border-top: 3pt solid black;
+	border-bottom: 3pt solid black;}
 li {float:left;
     text-transform:uppercase;
     text-align: left;
 	font-size:24px;
 	font-weight:bold;
-	padding-left:20px;
+	padding-left:40px;
 	padding-top: 15px;
-	padding-left: 10px;
-	border-top: 3pt solid black;
-	border-bottom: 3pt solid black;
 	width: 15%;
 	height: 30px;
 	list-style-type: disc;
@@ -112,26 +110,24 @@ li {float:left;
 #first {list-style-type: none;}
 
 #dog {float: left;
-	  width: 425px;
-	  height: 300px;
+	  width: 432px;
 	  padding-bottom: 20px;
 	  }
 #cat {float: left;
-	  width: 425px;
-	  height: 300px;
+	  width: 432px;
 	  padding-bottom: 20px;
 	}
 #dogs {float: left;
-       width: 400px;
-       height: 465px;
+	   width: 45%;
        text-align:left;
+       margin-top: 80px;
        padding-bottom:20px;
        }
       
 #cats {float:right;
-       width: 400px;
-       height: 465px;
+       width: 45%;
        text-align:left;
+       margin-top: 80px;
        padding-bottom:20px;
        }    
 h2 {font-weight: bold;
@@ -141,14 +137,14 @@ p {font-size: 14px;
 	line-height: 1.5}
 #footnote1 {font-size: 10px;
 	float: left;
-	width: 410px;
+	width: 50%;
 	padding-bottom: 30px;
 	padding-top: 30px;
 	text-align: left;
 	border-top: 3px solid black}
 #footnote2 {font-size: 10px;
 	float: left;
-	width: 410px;
+	width: 50%;
 	padding-bottom: 30px;
 	padding-top: 30px;
 	text-align: right;
