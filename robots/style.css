@@ -59,49 +59,61 @@ body {margin: 0 auto;
 header {position:relative;
 	height: 125px;
 	width: 960px;
-	margin: 0 auto;
-	background-color: green}
+	margin: 0 auto;}
 
 #site-wrapper {
-	background-color: pink;
+	background-color: #ecf2d3;
 	height: 125px}
 header h1 {position: absolute;
 	display: block;
 	width: 360px;
-	height:100px;
-	background-color: yellow;}
+	height:100px;}
 
 #logo-text{background: red;
 	position: absolute;
 	left: -9999px}
 #top-nav {position: absolute;
 	right: 0px;
-	top:5px;
-	text-decoration: none;
+	top:5px;}
+#top-nav a {text-decoration: none;
 	width: 150px;
-	background-color: teal;
-	}
-a {text-decoration: none;}
+	color: #875c33;
+	font-size: 12px;}
 #main-menu {position: relative;
 	height: 30px;
-	background-color:purple;
+	background-color:#875c33;
 	padding: 10px;
 	margin:0 auto;
 	width: 960px;}
 #main-menu li {float:left;
+	display: block;
 	padding:0px 10px;
 	margin:0px 0px 5px 15px;
 	text-transform:uppercase; 
 	font-weight:bold;
 	font-size: 14px;
 	margin: 10px;}
-#main-menu a {color: white}
-#menu-wrapper {background-color: brown;}
+#main-menu a {color: white;
+	text-decoration: none;}
+#menu-wrapper {background-color: #875c33;}
 
 #page {float: left;
 	width: 60%;
-	background-color:chartreuse;
-	margin-top: 40px;}
+	margin-top: 40px;
+	font-size: 12px;
+	line-height: 1.3em;}
+#page h1 {color: #875c33;
+	font-weight: bold;
+	font-size: 36px;
+	text-transform:uppercase;
+	padding-bottom: 10px}
+#page h2 {color: #875c33;
+	font-size: 16px;
+	text-transform:uppercase;
+	font-weight: bold;
+	padding-top:15px;
+	padding-bottom: 8}
+#page p {margin-top: 5px;}
 #content {width: 960px;
 	margin: 0 auto;}
 #sidebar {float:left;
@@ -110,23 +122,46 @@ a {text-decoration: none;}
 	padding:10px;
 	margin-left:75px ;
 	position: relative;
-	background-color: aqua;
-	}
-#site-footer {background-color: orange;
-	clear:both;
+	padding-bottom: 15px}
+#sidebar li {color: #875c33;
+	font-size: 12px;
+	line-height: 1.6em;}
+#sidebar a {color: #875c33;
+	text-decoration: none;}
+#sidebar h1 {color:#875c33;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding-top: 12px;
+	padding-bottom: 5px;}
+#sidebar ul {padding-bottom: 15px}
+#site-footer {clear:both;
 	position: relative;
 	bottom: 0;
 	width: 960px;
 	margin: 0 auto;}
 
 #footer-contact {width: 15%;
-	float: left;}
+	float: left;
+	padding-top: 10px;
+	color: white;
+	font-size: 12px}
+#footer-contact h1 {color: #ecf2d3;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	padding-bottom:3px;}
 #footer-follow {float: right;
 	height:100px;
 	margin-right: 100px;
-	}
+	padding-top: 10px;
+	color: #ecf2d3;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	padding-bottom:3px;}
 #footer-follow li {float:left; 
-	background-color: teal}
-#footer-wrapper {background-color: orange;
+	padding-top: 10px}
+#footer-wrapper {background-color: #875c33;
 	clear: both;
-	height: 200px;}
+	height: 120px;}
