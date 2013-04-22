@@ -115,6 +115,7 @@ body {width:960px;
 	margin: 0 auto;
 	position: relative;
 	padding: 60px;}
+header {position: relative}
 #homeimage {padding: 40px 0px 20px 0px;}
 #nav-1 {float:left;}
 li a {text-decoration: none;
@@ -182,3 +183,18 @@ footer {clear: both;
 	color: rgb(111,105,135);
 	padding-right: 15px}
 #nav a:hover {color: rgb(169,164,183)}
+p{clear: both;
+color:grey;
+float: left;
+width: 400px;
+position: relative;
+padding: 10px 0px;
+font-size: 14pt;
+line-height: 1.2;}
+#art-statement {padding: 50px;
+clear: both;
+font-family: helvetica}
+#art-statement h1 {font-weight: bold;
+	font-size: 18pt}
+#brent-face {float: right;
+	width:200px;}
