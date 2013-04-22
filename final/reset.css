@@ -128,7 +128,11 @@ li a:hover {color:rgb (186,114,92)}
 	float:left;
 	padding: 0px 130px;
 	padding-left: 200px;
-	font-size: 105px}
+	font-size: 105px;
+	text-decoration: none;
+	color: black;}
+#brent a {text-decoration: none;
+	color: black;}
 footer {clear: both;
 	padding-top: 30px;
 	border-top: 3px solid gray;}
