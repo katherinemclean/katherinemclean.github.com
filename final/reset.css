@@ -84,26 +84,29 @@ html[xmlns] .clearfix { display: block; }
          url('src/leaguegothic-regular-webfont.ttf') format('truetype'),
          url('src/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
     font-weight: normal;
-    font-style: normal;
-
-}
+    font-style: normal;}
 
 body {width:840px;
 	margin: 0 auto;
 	position: relative;
-	padding-top: 60px;}
+	padding-top: 60px;
+	font-family: "League Gothic"}
 header {position: relative}
-#homeimage {padding: 40px 0px 20px 0px;}
+#homeimage {padding-top: 50px;
+	padding-bottom: 30px;
+	background-color: yellow;}
+
+a:hover {color: rgb(196,133,111);}
+a:hover {opacity:.6;}
+
+/*main nav bar*/
 #nav-1 {float:left;
 	width:19%;}
-li li a:hover #nav-1 #nav-2 #nav3 #brent {font-family: 'League Gothic'}
 li a {text-decoration: none;
 	color: rgb(154,36,32);
 	font-size: 35px;
 	line-height: 1.5;
 	letter-spacing: .1em;}
-li a:hover {color:rgb (186,114,92);}
-a:hover {opacity:.6;}
 #nav-2 {float:right;
 	text-align: right;
 	width: 16%;}
@@ -118,36 +121,33 @@ a:hover {opacity:.6;}
 	text-align: center}
 #brent a {text-decoration: none;
 	color: black;}
-footer {clear: both;
-	padding-top: 30px;
-	border-top: 3px solid gray;}
-#nav3 {clear: both;
-	padding-right: 10px}	
-#nav3 a {float:right;
-	text-decoration: none;
-	color: rgb(111,105,135);
-	padding-left: 15px;
-	font-size:18px;
-	padding-bottom: 5px}
-a:hover {color: rgb(196,133,111);
-	}
-p{clear: both;
-color:grey;
-float: left;
-width: 400px;
-position: relative;
-padding: 10px 0px;
-font-size: 14pt;
-line-height: 1.2;}
-#art-statement {padding: 50px;
-clear: both;
-font-family: helvetica}
-#art-statement h1 {font-weight: bold;
-	font-size: 18pt}
-#brent-face {float: right;
-	width:200px;}
+#brent a:hover {opacity: 1}
 
+/*About Me*/
+#art-statement h1 {clear: both;
+	float: left;
+	font-weight: bold;
+	font-size: 18pt;}
+p  {clear:both;
+	color:grey;
+	font-size: 14pt;
+	line-height: 1.2;
+	font-family: helvetica;
+	width:55%;}
+#brent-face img {float:left;}
 
+/*Individual Work Pages*/
+.title {clear: both;
+	padding-bottom: 15px;
+	font-size: 20px;}
+.work {clear: both;
+	float: right;}
+h3 {clear: both;
+	font-size: 15px;
+	float:right;
+	padding-top: 20px;}
+h3 a {text-decoration: none;
+	color: rgb(111,105,135);}
 
 
 /*Portfolio Webpage Positioning*/
@@ -197,6 +197,15 @@ font-family: helvetica}
 #project12 { float: left;
 	padding-bottom:40px;
 	font-size: 20px;}	
+#nav3 {clear: both;
+	padding-right: 10px}	
+#nav3 a {float:right;
+	text-decoration: none;
+	color: rgb(111,105,135);
+	padding-left: 15px;
+	font-size:18px;
+	padding-bottom: 5px}
+
 
 
 
