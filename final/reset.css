@@ -148,7 +148,7 @@ li a {text-decoration: none;
 	font-family: helvetica;
 	width:55%;}
 #brent-face img {float: right;
-}
+margin-left: 50px;}
 
 /*Contact*/
 #contact h2 {clear: both;
@@ -239,7 +239,8 @@ h3 a {text-decoration: none;
 	font-size:18px;
 	padding-bottom: 5px}
 
-/*demo*/
+	/* demo */
+	
 
 
 
