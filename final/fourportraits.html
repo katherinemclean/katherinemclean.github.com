@@ -1,14 +1,31 @@
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Brent Pheto Art</title>
+
+   <!-- Scroll -->
+
+   <!-- Light Box -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+    <link rel="stylesheet" href="src/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script type="text/javascript" src="src/fancybox/jquery.fancybox.pack.js">
+    </script>
+    <script type="text/javascript" src="../lib/jquery-1.9.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
+
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-    <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="reset.css" type="text/css" media="screen" />
 </head>
+
 <body>
+<div class="wrapper">
   <header id="header">
     <nav id="nav-1">
       <ul>
@@ -25,7 +42,12 @@
     </nav>
   </header>
   <h2 class="title">Four Portraits</h2>
-  <a class="work" href="#"> <img src = "images/p1/fourportraits01-small.jpg" alt="Four Portraits"/> </a>
-  <h3><a href="index-work-p1.html">BACK</h3>
+  <div class="work">
+    <a href="images/p1/fourportraits01-large.jpg" class="fancybox" title="Four Portraits"> <img src = "images/p1/fourportraits01-small.jpg" alt="Four Portraits"/> </a> 
+  </div>
+  <h3><a href="index-work-p1.html">BACK </a></h3>
+</div>
+<div class="scroll">
+</div>
 </body>
 </html>

@@ -75,7 +75,7 @@ html[xmlns] .clearfix { display: block; }
 
 /* End Reset */
 
-/* Regular */
+/* League Gothic */
 @font-face {
     font-family: 'League Gothic';
     src: url('src/leaguegothic-regular-webfont.eot');
@@ -124,17 +124,45 @@ li a {text-decoration: none;
 #brent a:hover {opacity: 1}
 
 /*About Me*/
-#art-statement h1 {clear: both;
+#about-me h1 {clear: both;
 	float: left;
 	font-weight: bold;
-	font-size: 18pt;}
-p  {clear:both;
+	font-size: 18pt;
+	width:55%;
+	background-color: yellow}
+#about-me p  {clear:both;
 	color:grey;
 	font-size: 14pt;
 	line-height: 1.2;
 	font-family: helvetica;
-	width:55%;}
-#brent-face img {float:left;}
+	width:55%;
+	background-color: yellow}
+#art-statement h1 {clear: both;
+	float: left;
+	font-weight: bold;
+	font-size: 18pt;
+	margin-top: 20px;
+	width: 55%;
+	background-color: yellow}
+#art-statement p  {clear:both;
+	color:grey;
+	font-size: 14pt;
+	line-height: 1.2;
+	font-family: helvetica;
+	width:55%;
+	background-color: yellow}
+#brent-face {float: right;
+	width: 25%}
+
+/*Contact*/
+#contact h2 {clear: both;
+	float:left;
+	font-size: 26pt;
+	letter-spacing: .01em;
+	width: 60%}
+#contact2 {float:left; 
+	width: 30%;}
+#contact p {color:rgb(154,36,32) }
 
 /*Individual Work Pages*/
 .title {clear: both;
@@ -149,6 +177,11 @@ h3 {clear: both;
 h3 a {text-decoration: none;
 	color: rgb(111,105,135);}
 
+/*vertical scroll*/
+.scroll {background-color: grey;
+	padding:10px ;
+	width:170px;
+	height:255px;}
 
 /*Portfolio Webpage Positioning*/
 #portfolio {text-transform: uppercase;}
@@ -206,19 +239,6 @@ h3 a {text-decoration: none;
 	padding-left: 15px;
 	font-size:18px;
 	padding-bottom: 5px}
-
-
-
-/*vertical scroll*/
-.scroll {background-color: grey;
-	padding:10px ;
-	width:170px;
-	height:255px;}
-
-/*fancy box*/
-.fancybox {padding-top:.8em;
-		  padding-bottom:1em;
-		  margin-right:1.6em;}
 
 
 
