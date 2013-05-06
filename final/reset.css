@@ -215,6 +215,10 @@ h3 a {text-decoration: none;
 	width:170px;
 	height:255px;}
 
+/*fancy box*/
+.fancybox {padding-top:.8em;
+		  padding-bottom:1em;
+		  margin-right:1.6em;}
 
 
 
