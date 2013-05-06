@@ -124,35 +124,31 @@ li a {text-decoration: none;
 #brent a:hover {opacity: 1}
 
 /*About Me*/
-#about-me h1 {clear: both;
+#about-me h1 {
 	float: left;
 	font-weight: bold;
 	font-size: 18pt;
-	width:55%;
-	background-color: yellow}
-#about-me p  {clear:both;
+	width:55%;}
+#about-me p  {float:left;
 	color:grey;
 	font-size: 14pt;
 	line-height: 1.2;
 	font-family: helvetica;
-	width:55%;
-	background-color: yellow}
-#art-statement h1 {clear: both;
+	width:55%;}
+#art-statement h1 {
 	float: left;
 	font-weight: bold;
 	font-size: 18pt;
 	margin-top: 20px;
-	width: 55%;
-	background-color: yellow}
-#art-statement p  {clear:both;
+	width: 55%;}
+#art-statement p  {float:left;
 	color:grey;
 	font-size: 14pt;
 	line-height: 1.2;
 	font-family: helvetica;
-	width:55%;
-	background-color: yellow}
-#brent-face {float: right;
-	width: 25%}
+	width:55%;}
+#brent-face img {float: right;
+}
 
 /*Contact*/
 #contact h2 {clear: both;
@@ -162,7 +158,10 @@ li a {text-decoration: none;
 	width: 60%}
 #contact2 {float:left; 
 	width: 30%;}
-#contact p {color:rgb(154,36,32) }
+#contact p {color:rgb(154,36,32);
+	font-size: 14pt;
+	font-family: helvetica;
+	line-height: 1.2; }
 
 /*Individual Work Pages*/
 .title {clear: both;
@@ -239,6 +238,8 @@ h3 a {text-decoration: none;
 	padding-left: 15px;
 	font-size:18px;
 	padding-bottom: 5px}
+
+/*demo*/
 
 
 
