@@ -90,7 +90,7 @@ body {width:840px;
 	margin: 0 auto;
 	position: relative;
 	padding-top: 60px;
-	font-family: "League Gothic"}
+	font-family: helvetica}
 header {position: relative}
 #homeimage {padding-top: 50px;
 	padding-bottom: 30px;
@@ -99,29 +99,35 @@ header {position: relative}
 a:hover {color: rgb(196,133,111);}
 a:hover {opacity:.6;}
 
+/*portfolio page*/
+h2 {font-size: 13px;
+	padding-bottom: 4px}
+
 /*main nav bar*/
+
 #nav-1 {float:left;
-	width:19%;}
+	width:19%;
+	font-family: "League Gothic"}
 li a {text-decoration: none;
 	color: rgb(154,36,32);
 	font-size: 35px;
 	line-height: 1.5;
-	letter-spacing: .1em;}
+	letter-spacing: .1em;
+	font-family: "League Gothic"}
 #nav-2 {float:right;
 	text-align: right;
-	width: 16%;}
-#brent {margin: 0 auto;
+	width: 16%;
+	font-family: "League Gothic"}
+h1 {margin: 0 auto;
 	width: 65%;
 	float:left;
 	padding-bottom: 70px;
+	font-family: "League Gothic";
 	font-size: 105px;
 	text-decoration: none;
 	color: black;
 	letter-spacing: .1em;
-	text-align: center}
-#brent a {text-decoration: none;
-	color: black;}
-#brent a:hover {opacity: 1}
+	text-align: center;}
 
 /*About Me*/
 #about-me h1 {
@@ -169,11 +175,11 @@ margin-left: 50px;}
 	font-size: 20px;}
 .work {clear: both;
 	float: right;}
-h3 {clear: both;
+h4 {clear: both;
 	font-size: 15px;
 	float:right;
 	padding-top: 20px;}
-h3 a {text-decoration: none;
+h4 a {text-decoration: none;
 	color: rgb(111,105,135);}
 
 /*vertical scroll*/
@@ -214,7 +220,8 @@ h3 a {text-decoration: none;
 	font-size: 20px;}
 #project8 { float: left;
 	padding-bottom:40px;
-	font-size: 20px;}
+	font-size: 20px;
+	background-color: pink;}
 #project9 { float: left;
 	padding-right: 50px;
 	padding-bottom:40px;
@@ -229,15 +236,15 @@ h3 a {text-decoration: none;
 	font-size: 20px;}
 #project12 { float: left;
 	padding-bottom:40px;
-	font-size: 20px;}	
-#nav3 {clear: both;
-	padding-right: 10px}	
-#nav3 a {float:right;
-	text-decoration: none;
-	color: rgb(111,105,135);
-	padding-left: 15px;
-	font-size:18px;
-	padding-bottom: 5px}
+	font-size: 20px;
+	background-color: yellow}	
+
+#nav3 h3{float:right;
+	padding-left: 10px;
+	font-size:15px;
+	}
+#nav3 a{text-decoration: none;
+		color: rgb(111,105,135);}
 
 	/* demo */
 	
