@@ -107,86 +107,93 @@ h2 {font-size: 13px;
 
 #nav-1 {float:left;
 	width:19%;
-	font-family: "League Gothic"}
+	font-family: "League Gothic", Impact, sans-serif}
 li a {text-decoration: none;
 	color: rgb(154,36,32);
 	font-size: 35px;
 	line-height: 1.5;
 	letter-spacing: .1em;
-	font-family: "League Gothic"}
+	font-family: "League Gothic", Impact, sans-serif}
 #nav-2 {float:right;
 	text-align: right;
 	width: 16%;
-	font-family: "League Gothic"}
+	font-family: "League Gothic", Impact, sans-serif;}
 h1 {margin: 0 auto;
 	width: 65%;
 	float:left;
 	padding-bottom: 70px;
-	font-family: "League Gothic";
+	font-family: "League Gothic", Impact, sans-serif;
 	font-size: 105px;
 	text-decoration: none;
 	color: black;
 	letter-spacing: .1em;
 	text-align: center;}
+#currentpage {color: rgb(196,133,111);}
 
 /*About Me*/
-#about-me h1 {
+#about {width:55%;}
+#about-me h2 {
 	float: left;
 	font-weight: bold;
 	font-size: 18pt;
-	width:55%;}
+	letter-spacing: .05em;}
 #about-me p  {float:left;
 	color:grey;
 	font-size: 14pt;
 	line-height: 1.2;
-	font-family: helvetica;
-	width:55%;}
-#art-statement h1 {
+	font-family: helvetica;}
+#art-statement h2 {
 	float: left;
 	font-weight: bold;
 	font-size: 18pt;
-	margin-top: 20px;
-	width: 55%;}
+	letter-spacing: .05em;
+	margin-top: 20px;}
 #art-statement p  {float:left;
 	color:grey;
 	font-size: 14pt;
 	line-height: 1.2;
-	font-family: helvetica;
-	width:55%;}
-#brent-face img {float: right;
-margin-left: 50px;}
+	font-family: helvetica;}
+#second-p {text-indent: 1em}
+#brent-face {float:right;
+	}
 
 /*Contact*/
 #contact h2 {clear: both;
 	float:left;
-	font-size: 26pt;
-	letter-spacing: .01em;
-	width: 60%}
-#contact2 {float:left; 
-	width: 30%;}
-#contact p {color:rgb(154,36,32);
-	font-size: 14pt;
-	font-family: helvetica;
+	font-size: 18pt;
+	letter-spacing: .05em;
+	font-weight: bold;
+	text-transform: uppercase;}
+#contact {float:left; 
+	width: 45%;}
+#contact p {clear:both;
+	padding-top: 10px;
+	font-size: 13pt;
 	line-height: 1.2; }
-
+#contact p a {color:rgb(196,133,111);
+	text-decoration: none;}
+#facebook {padding-top: 15px}
 /*Individual Work Pages*/
 .title {clear: both;
 	padding-bottom: 15px;
 	font-size: 20px;}
 .work {clear: both;
 	float: right;}
-h4 {clear: both;
+
+#nav4 {clear: both;
 	font-size: 15px;
 	float:right;
-	padding-top: 20px;}
-h4 a {text-decoration: none;
+	padding-top: 20px;
+	text-align: right;
 	color: rgb(111,105,135);}
+#nav4 p a {text-decoration: none;}
 
 /*vertical scroll*/
-.scroll {background-color: grey;
+.scroll {background-color: #dcdcdc;
 	padding:10px ;
 	width:170px;
-	height:255px;}
+	height:255px;
+	overflow-y: scroll;}}
 
 /*Portfolio Webpage Positioning*/
 #portfolio {text-transform: uppercase;}
@@ -220,8 +227,7 @@ h4 a {text-decoration: none;
 	font-size: 20px;}
 #project8 { float: left;
 	padding-bottom:40px;
-	font-size: 20px;
-	background-color: pink;}
+	font-size: 20px;}
 #project9 { float: left;
 	padding-right: 50px;
 	padding-bottom:40px;
@@ -236,20 +242,12 @@ h4 a {text-decoration: none;
 	font-size: 20px;}
 #project12 { float: left;
 	padding-bottom:40px;
-	font-size: 20px;
-	background-color: yellow}	
+	font-size: 20px;}	
 
 #nav3 h3{float:right;
-	padding-left: 10px;
+	padding-left: 15px;
 	font-size:15px;
 	}
 #nav3 a{text-decoration: none;
 		color: rgb(111,105,135);}
-
-	/* demo */
-	
-
-
-
-
 
